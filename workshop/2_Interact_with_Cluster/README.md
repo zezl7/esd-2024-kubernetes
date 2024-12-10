@@ -4,7 +4,7 @@ Well, there is only one thing inside this cluster: a node ✨ Exciting? Not **ye
 ### `kubectl`
 `Objective`: **interact** with cluster to create pods and other components (e.g., _Service_, _Secret_, _ConfigMap_) on that node.
 
-> Kubectl is a `comand line tool` for K8s clusters. It submits commands to the API server (a master node process, main entrypoint) in order to interact with cluster (e.g., create/delete components). The work processes will executing the commands.
+> Kubectl is a `comand line tool` for K8s clusters. It submits commands to the API server (a master node process, main entrypoint) in order to interact with the cluster (e.g., create/delete components). The work processes will execute the commands.
 >
 > FYI: `kubectl` got installed as a dependency when you installed `minikube`. 🙀
 
@@ -24,6 +24,6 @@ Well, there is only one thing inside this cluster: a node ✨ Exciting? Not **ye
     ```
     minikube dashboard
     ```
-    Once you are on the dashboard, navigate to Cluster -> Nodes in the sidebar. There you will see the `one-node` created by `minikube`.
+    Once you are on the dashboard, navigate to Cluster -> Nodes in the sidebar. There you will see your **one and only node**. ✨
 
 Congrats! You have passed the talking stage with your local K8s cluster. Now, let the fun begin. 👽
