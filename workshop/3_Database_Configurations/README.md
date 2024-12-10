@@ -30,4 +30,4 @@ Wow, you have come so far ESDealer, this `third` assignment is about **configuri
     - change the app selector's value to the previously set app label value,
     - change the `targetPort` and `port` to the `containerPort`'s value (this is where the forwarding of the request should happen).
 
-Congrats! You have configured the database application and are one step closer to deploying the web app on the K8s cluster... Buut not quite yet. 💆 The web app needs configuring as well.
+Congrats! You have configured the database application and are one step closer to deploying the web app on the K8s cluster... Buut not quite yet. 💆 The [web app needs configuring](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/4_Webapp_Configurations) as well.
