@@ -1,4 +1,4 @@
-Wow, you have come so far ESDealer, this `third` assignment is about **configuring the database deployment on the K8s cluster**.
+Wow, you have come so far ESDealer, this `third` assignment is about **configuring the database and webapp deployment on the K8s cluster**.
 
 ## INFO 💡
 ### `K8s configuration files`
@@ -29,5 +29,9 @@ Wow, you have come so far ESDealer, this `third` assignment is about **configuri
     - change the name of the service to the previoulsy set `database-url` in the `configMap`,
     - change the app selector's value to the previously set app label value,
     - change the `targetPort` and `port` to the `containerPort`'s value (this is where the forwarding of the request should happen).
+5. Copy the contents of [`database.yaml`](https://github.com/zezl7/esd-2024-kubernetes/blob/main/workshop/3_Create_Configurations/database.yaml) and paste them in [`webapp.yaml`](https://github.com/zezl7/esd-2024-kubernetes/blob/main/workshop/3_Create_Configurations/webapp.yaml) .
+    - adjust the labels, names, and selector to a new string of your choice,
+    - change the container image to `zezl7/esd-2024-kubernetes:latest`,
+    - change all ports to `3000`.
 
-Congrats! You have configured the database application and are one step closer to deploying the web app on the K8s cluster... Buut not quite yet. 💆 The [web app needs configuring](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/4_Webapp_Configurations) as well.
+Congrats! You have configured the database and webapp application and are one step closer to deploying the whole thing on the K8s cluster... Buut not quite yet. 💆 The [configuration data](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/4_Pass_Secret_Data) needs to be passed.
