@@ -1,4 +1,4 @@
-Wow, you have come so far ESDealer, this `third` assignment is about **configuring a deployment of a web app to the K8s cluster**.
+Wow, you have come so far ESDealer, this `third` assignment is about **configuring the database deployment on the K8s cluster**.
 
 ## INFO 💡
 ### `K8s configuration files`
@@ -8,7 +8,7 @@ Wow, you have come so far ESDealer, this `third` assignment is about **configuri
 
 `Deployment`: specifies pod creation.
 
-`Service`: a permament IP attached to a pod.
+`Service`: forwards requests to its endpoint pods based on a label, serves as a permament IP attached to a pod.
 
 
 ## TODO 🎅
@@ -24,5 +24,10 @@ Wow, you have come so far ESDealer, this `third` assignment is about **configuri
     - change the app labels' values to another string to group the pods by,
     - change the name of the deployment,
     - change the `replicas` to 1, since databases require a `StatefulSet` in K8s, not a deployment.
+4. To add the `Service` configuration, create a separate yaml unit separated by `---` at the bottom of the [`database.yaml`](https://github.com/zezl7/esd-2024-kubernetes/blob/main/workshop/3_Create_Configurations/database.yaml) file. There,
+    - copy & paste the first service example from the [K8s documentation](https://kubernetes.io/docs/concepts/services-networking/service/),
+    - change the name of the service to the previoulsy set `database-url` in the `configMap`,
+    - change the app selector's value to the previously set app label value,
+    - change the `targetPort` and `port` to the `containerPort`'s value (this is where the forwarding of the request should happen).
 
-Congrats! You have created the configuration files and are one step closer to deploying the web app on the K8s cluster. 
+Congrats! You have configured the database application and are one step closer to deploying the web app on the K8s cluster... Buut not quite yet. 💆 The web app needs configuring as well.

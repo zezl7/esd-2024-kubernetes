@@ -26,4 +26,4 @@ Well, there is only one thing inside this cluster: a node ✨ Exciting? Not **ye
     ```
     Once you are on the dashboard, navigate to Cluster -> Nodes in the sidebar. There you will see your **one and only node**. ✨
 
-Congrats! You have passed the talking stage with your local K8s cluster. Now, let the [fun](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/3_Create_Configurations) begin. 👽
+Congrats! You have passed the talking stage with your local K8s cluster. Now, let the [configuration](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/3_Database_Configurations) begin. 👽
