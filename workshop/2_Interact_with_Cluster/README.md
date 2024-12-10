@@ -1,4 +1,4 @@
-Hello again ESD warrior, this assignment is about **interacting with your K8s cluster**.
+Hello again ESD warrior, this `second` assignment is about **interacting with your K8s cluster**.
 
 ## INFO 💡
 ### `TBD`
