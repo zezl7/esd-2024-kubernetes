@@ -10,14 +10,14 @@ This node has Docker pre-installed so you can run the containers in the pods.
 
 ## TODO 🎅
 1. Install `minikube` as described [in step 1](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download) 
-    > **Note:** It'll take 3-4 min.
+    > ⌚ It'll take 3-4 min.
 2. Start Docker (it'll host `minikube` as a container on your local machine).
 3. Create and start your cluster with Docker Driver.
     ```
     minkube start --driver docker
     ```
     You instruct `minikube` to use Docker as the underlying virtualization method to host the K8s components as containers.
-    > **Note:** 
+    > ⌚ 
     > It'll take 4-5 min (it downloads images and components).
     >
     > ![minikubeStart](minikubeStart.png)
