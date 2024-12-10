@@ -12,12 +12,12 @@ Wow, you have come so far ESDealer, this `third` assignment is about **configuri
 
 
 ## TODO 🎅
-1. In `database-config.yaml`, specify a name for the configmap and the service.
-2. In `database-secret.yaml`, 
+1. In [`database-config.yaml`](https://github.com/zezl7/esd-2024-kubernetes/blob/main/workshop/3_Create_Configurations/database-config.yaml), specify a name for the configmap and the service.
+2. In [`database-secret.yaml`](https://github.com/zezl7/esd-2024-kubernetes/blob/main/workshop/3_Create_Configurations/database-secret.yaml), 
     - specify a name for the secret,
     - select your own username and password.
         > 🚧 read the `Secret` part above.
-3. The file `database.yaml` is empty. Copy the contents of the `nginx-deployment.yaml` file from [the K8s documention](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) to this file. Here, both `deployment` and `service` are entailed. The former is dependent on the latter. The `specification` section has deployment specific configuration, the `template` configures the **pod** within the deployment.
+3. The file [`database.yaml`](https://github.com/zezl7/esd-2024-kubernetes/blob/main/workshop/3_Create_Configurations/database.yaml) is empty. Copy the contents of the `nginx-deployment.yaml` file from [the K8s documention](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/) to this file. Here, both `deployment` and `service` are entailed. The former is dependent on the latter. The `specification` section has deployment specific configuration, the `template` configures the **pod** within the deployment.
     - change the image for the pod to `mongo:8.0`,
     - rename the container,
     - change the port to the mongodb one `27017`,
