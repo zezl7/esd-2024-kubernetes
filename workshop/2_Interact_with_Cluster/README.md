@@ -1,4 +1,4 @@
-Hello again fellow ESDealer, this `second` assignment is about **interacting with your K8s cluster**. And yes, there is already something in it, let's find out what.
+Well, there is only one thing inside this cluster: a node ✨ Exciting? Not **yet**.
 
 ## INFO 💡
 ### `kubectl`
@@ -10,12 +10,12 @@ Hello again fellow ESDealer, this `second` assignment is about **interacting wit
 
 
 ## TODO 🎅
-1. Get all the **nodes** in the cluster:
+1. See all the **nodes** in the cluster:
     ```
     kubectl get node
     ```
-    You will see one node _ready_ to accept our application for deployment.
-2. Get all services in master node:
+    You will see **the one** node _ready_ to accept our application for deployment.
+2. See all services in master node:
     ```
     kubectl get po -A
     ```
