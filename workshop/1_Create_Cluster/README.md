@@ -21,4 +21,4 @@ This node has Docker pre-installed so you can run the containers in the pods.
     minkube start
     ```
 
-Congrats! You have created a local K8s cluster. There is nothing in it though.. Or is there? 👤
+Congrats! You have created a local K8s cluster. There is nothing in it though.. Or is [there](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/2_Interact_with_Cluster)? 👤
