@@ -1,4 +1,4 @@
-Hello fellow ESD warrior, this assignment is about **creating a local K8s cluster**.
+Hello fellow ESD warrior, this `first` assignment is about **creating a local K8s cluster**.
 
 ## INFO 💡
 ### `Minikube`
