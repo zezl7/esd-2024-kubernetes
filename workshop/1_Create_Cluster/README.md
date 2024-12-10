@@ -1,4 +1,4 @@
-Hello fellow ESD warrior, this `first` assignment is about **creating a local K8s cluster**.
+Hello fellow ESD-ler (or ESDealer 👀), this `first` assignment is about **creating a local K8s cluster**.
 
 ## INFO 💡
 ### `Minikube`
@@ -8,17 +8,24 @@ Hello fellow ESD warrior, this `first` assignment is about **creating a local K8
 This node has Docker pre-installed so you can run the containers in the pods.
 
 
-### `kubectl`
-`Objective`: **interact** with cluster to create pods and other components (e.g., _Service_, _Secret_, _ConfigMap_) on that node.
-
-> Kubectl is a `comand line tool` for K8s clusters. It submits commands to the API server (a master node process, main entrypoint) in order to interact with cluster (e.g., create/delete components). The work processes will executing the commands.
-
-
 ## TODO 🎅
-1. Install `minikube` as described [in step 1](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download).
-2. Start your cluster with
+1. Install `minikube` as described [in step 1](https://minikube.sigs.k8s.io/docs/start/?arch=%2Flinux%2Fx86-64%2Fstable%2Fbinary+download) 
+    > [!NOTE] It'll take 3-4 min.
+2. Start Docker (it'll host `minikube` as a container on your local machine).
+3. Create and start your cluster with Docker Driver.
     ```
-    minkube start
+    minkube start --driver docker
     ```
+    You instruct `minikube` to use Docker as the underlying virtualization method to host the K8s components as containers.
+    > [!NOTE] 
+    >
+    > It'll take 4-5 min (it downloads images and components).
+    >
+    > ![minikubeStart](minikubeStart.png)
+4. Run the following to ensure the components inside are running:
+    ```
+    minikube status
+    ```
+    If everything is running or configured, then
 
-Congrats! You have created a local K8s cluster. There is nothing in it though.. Or is [there](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/2_Interact_with_Cluster)? 👤
+Congrats! You have created a local K8s cluster. There is nothing interesting in it though.. Or is [there](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/2_Interact_with_Cluster)? 👤
