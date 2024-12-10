@@ -34,4 +34,4 @@ Wow, you have come so far ESDealer, this `third` assignment is about **configuri
     - change the container image to `zezl7/esd-2024-kubernetes:latest`,
     - change all ports to `3000`.
 
-Congrats! You have configured the database and webapp application and are one step closer to deploying the whole thing on the K8s cluster... Buut not quite yet. 💆 The [configuration data](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/4_Pass_Secret_Data) needs to be passed.
+Congrats! You have configured the database and webapp application and are one step closer to deploying the whole thing on the K8s cluster... Buut not quite yet. 💆 The [configuration data](https://github.com/zezl7/esd-2024-kubernetes/tree/main/workshop/4_Pass_Configuration_Data) needs to be passed.
