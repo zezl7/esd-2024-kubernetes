@@ -37,7 +37,7 @@ metadata:
   name: database-service
 spec:
   selector:
-    name: database
+    app: database
   ports:
     - protocol: TCP
       port: 27017

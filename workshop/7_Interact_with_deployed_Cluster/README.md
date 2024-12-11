@@ -5,7 +5,7 @@ Heeeeey ESDealer, last one. This `seventh` assignment is about **interacting wit
     ```
     kubectl get all
     ```
-You will see `pod/`, `service/`, `deployment/`, `replicaset/`.
+You will see `pod/`, `service/`, `deployment/`, `replicaset/`. You will also see `ContainerCreating`, this will changes to `Running` in 1-2 min.
 2. To see `configMap` and `secret`, run
     ```
     kubectl get configmap
@@ -27,12 +27,15 @@ You will see `pod/`, `service/`, `deployment/`, `replicaset/`.
 ```
 6. To see all services, run
 ```
-    kubectl get svc # gets all services
+    kubectl get svc
 ```
-7. To get the IP address of a node, run
+7. To see the web app, run
 ```
-    kubectl get node -o wide
+    minikube service webapp-service
 ```
-8. Finally, you can access the application at the specified 30100 port with the external IP address from Step 7.
+8. To delete the cluster, run
+```
+    minikube delete --all
+```
 
 Congratulations! You have finished this workshop. Thank you for your participation, if you made it thus far, send me a 🍍 via Teams.

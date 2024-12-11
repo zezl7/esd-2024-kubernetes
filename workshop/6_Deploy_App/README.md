@@ -10,6 +10,7 @@ By default, services are internal and carry the `type: ClusterIP`.
 kubectl apply -f database-config.yaml
 kubectl apply -f database-secret.yaml
 ```
+> Remember to change to the repo containing the files.
 2. Create the database with 
 ```
 kubectl apply -f database.yaml
