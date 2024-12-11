@@ -31,4 +31,4 @@ You are halfway there ESDealer, this `fourth` assignment is about **passing conf
     ```
     For `name` enter the `configMap` name you specified in the [`database-config.yaml`](https://github.com/zezl7/esd-2024-kubernetes/blob/main/workshop/3_Create_Configurations/database-config.yaml) file.
 
-Congrats! You have taken care of referencing all configuration data. There is one more thing to do before the web app is up and running...
+Congrats! You have taken care of referencing all configuration data. There is one more thing to do before the web app is up and running... 🏃
