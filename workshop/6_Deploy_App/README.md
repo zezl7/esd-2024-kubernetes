@@ -19,4 +19,4 @@ kubectl apply -f database.yaml
 kubectl apply -f webapp.yaml
 ```
 
-Congrats! You deployed the configuration scripts to the cluster. The [next assignment](https://github.com/zezl7/esd-2024-kubernetes/blob/main/workshop/7_Interact_with_deployed_Cluster) is the last one, so you are almost done.
+Congrats! You have deployed the configuration scripts to the cluster. The [next assignment](https://github.com/zezl7/esd-2024-kubernetes/blob/main/workshop/7_Interact_with_deployed_Cluster) is the last one, so you are almost done. 🎓
