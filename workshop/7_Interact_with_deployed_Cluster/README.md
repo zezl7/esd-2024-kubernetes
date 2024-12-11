@@ -6,6 +6,7 @@ Heeeeey ESDealer, last one. This `seventh` assignment is about **interacting wit
     kubectl get all
     ```
 You will see `pod/`, `service/`, `deployment/`, `replicaset/`. You will also see `ContainerCreating`, this will changes to `Running` in 1-2 min.
+
 2. To see `configMap` and `secret`, run
     ```
     kubectl get configmap
