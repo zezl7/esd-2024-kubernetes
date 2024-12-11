@@ -25,7 +25,7 @@ spec: #
             secretKeyRef:
               name: database-secret
               key: database-user
-        - name: MONGO_INITDB_ROOT_USERNAME
+        - name: MONGO_INITDB_ROOT_PASSWORD
           valueFrom:
             secretKeyRef:
               name: database-secret
@@ -37,7 +37,7 @@ metadata:
   name: database-service
 spec:
   selector:
-    app.kubernetes.io/name: database
+    name: database
   ports:
     - protocol: TCP
       port: 80
