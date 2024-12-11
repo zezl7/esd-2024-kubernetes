@@ -7,11 +7,11 @@ kubectl apply -f mongo-config.yaml
 kubectl apply -f mongo-secret.yaml
 ```
 > Remember to change to the repo containing the files.
-2. Create the database with 
+2. Create the `database` with 
 ```
 kubectl apply -f mongo.yaml
 ```
-3. Create the webapp with 
+3. Create the `webapp` with 
 ```
 kubectl apply -f webapp.yaml
 ```
