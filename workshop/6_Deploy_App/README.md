@@ -7,13 +7,13 @@ By default, services are internal and carry the `type: ClusterIP`.
 ## TODO 🎅
 1. Create `configMap` and `secret` with 
 ```
-kubectl apply -f database-config.yaml
-kubectl apply -f database-secret.yaml
+kubectl apply -f mongo-config.yaml
+kubectl apply -f mongo-secret.yaml
 ```
 > Remember to change to the repo containing the files.
 2. Create the database with 
 ```
-kubectl apply -f database.yaml
+kubectl apply -f mongo.yaml
 ```
 3. Create the webapp with 
 ```
