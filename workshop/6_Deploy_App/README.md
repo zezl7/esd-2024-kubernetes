@@ -1,9 +1,5 @@
 This `sixth` assignment is about **deploying all resources in the K8 cluster**.
 
-## INFO 💡
-### `Service`
-By default, services are internal and carry the `type: ClusterIP`.
-
 ## TODO 🎅
 1. Create `configMap` and `secret` with 
 ```
