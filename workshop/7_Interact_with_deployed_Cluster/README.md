@@ -1,8 +1,5 @@
 Heeeeey ESDealer, last one. This `seventh` assignment is about **interacting with the K8s cluster**.
 
-## INFO 💡
-### ``
-
 ## TODO 🎅
 1. To see all components created in the cluster, run
     ```
@@ -36,6 +33,6 @@ You will see `pod/`, `service/`, `deployment/`, `replicaset/`.
 ```
     kubectl get node -o wide
 ```
-8. Finally, you can access the application at the specified 30100 port with the external IP address from Step 7/30100.
+8. Finally, you can access the application at the specified 30100 port with the external IP address from Step 7.
 
 Congratulations! You have finished this workshop. Thank you for your participation, if you made it thus far, send me a 🍍 via Teams.
