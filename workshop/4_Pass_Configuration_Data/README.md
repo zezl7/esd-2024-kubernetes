@@ -1,4 +1,4 @@
-This `fourth` assignment is about **passing configuration data to the database deployment**.
+You are halfway there ESDealer, this `fourth` assignment is about **passing configuration data to the database deployment**.
 
 ## INFO 💡
 ### `K8s configuration files`
